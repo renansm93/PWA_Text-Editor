@@ -3,8 +3,13 @@ import Editor from './editor';
 import './database';
 import '../css/style.css';
 
+import Logoimg from '../images/logo.png'
+
 const main = document.querySelector('#main');
 main.innerHTML = '';
+
+// Set the logo image
+document.getElementsByClassName('navbar-brand').src = Logoimg;
 
 const loadSpinner = () => {
   const spinner = document.createElement('div');
@@ -27,7 +32,6 @@ if (typeof editor === 'undefined') {
 if ('serviceWorker' in navigator) {
   // register workbox service worker
   const workboxSW = new Workbox('/src-sw.js');
-  console.log("service worker registered")
   workboxSW.register();
 } else {
   console.error('Service workers are not supported in this browser.');
