@@ -8,7 +8,7 @@ import Logoimg from '../images/logo.png'
 const main = document.querySelector('#main');
 main.innerHTML = '';
 
-// Set the logo image
+// Set the png logo
 document.getElementsByClassName('navbar-brand').src = Logoimg;
 
 const loadSpinner = () => {
@@ -28,7 +28,7 @@ if (typeof editor === 'undefined') {
   loadSpinner();
 }
 
-// Check if service workers are supported
+
 if ('serviceWorker' in navigator) {
   // register workbox service worker
   const workboxSW = new Workbox('/src-sw.js');
