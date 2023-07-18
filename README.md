@@ -39,7 +39,9 @@ To create this application, I used:
 
 ### Screenshot of Application
 
-![Screenshot of application](./assets/images/screenshot-of-application.png)
+![screenshot of application](./assets/images/screenshot-of-application.png)
+
+![Service Worker](./assets/images/Service-worker.png)
 
 ## Access
 
