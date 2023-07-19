@@ -74,7 +74,7 @@ Alternatively, to use the live application, click [here](https://renan-text-edit
 
 ## Credits
 
-- This is the [starter code](https://github.com/coding-boot-camp/cautious-meme) I used.
+- This is the [starter code](https://github.com/coding-boot-camp/cautious-meme) used.
 
 <hr>
 <p align='center'><i>
